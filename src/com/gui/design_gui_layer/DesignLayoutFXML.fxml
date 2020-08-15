@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" prefHeight="884.0" prefWidth="1130.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.design_gui_layer.DesignLayoutController">
+   <left>
+      <AnchorPane prefHeight="518.0" prefWidth="195.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="radioButtonQuestionsBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Radio button questions" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="saveFormBtn" alignment="BASELINE_CENTER" layoutX="15.0" layoutY="568.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Save the form and quit the designer" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="checkBoxQuestionsButton" layoutX="15.0" layoutY="71.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Checkbox questions" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="freeTextQuestionsButton" layoutX="15.0" layoutY="131.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Free text questions" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="formLinksButton" layoutX="15.0" layoutY="505.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Edit form links" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="editQuestionVisibilityButton" layoutX="14.0" layoutY="438.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Edit questions visibility and quit the designer" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="scaleQuestionsButton" layoutX="15.0" layoutY="190.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Scale questions" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="discardProgressButton" layoutX="14.0" layoutY="378.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Discard progress and quit the designer" textAlignment="CENTER" wrapText="true" />
+         </children>
+      </AnchorPane>
+   </left>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ComboBox fx:id="formQuestionsComboBox" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="953.0" promptText="Form questions. Select one to remove it." />
+            <Button fx:id="deleteSelectedQuestionButton" layoutX="980.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Delete selected question" textAlignment="CENTER" wrapText="true" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

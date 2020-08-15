@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root fx:id="anchorPane" prefHeight="655.0" prefWidth="975.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="answerLabel" layoutX="15.0" layoutY="14.0" text="Only one answer can be selected." />
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="15.0" layoutY="186.0" prefHeight="361.0" prefWidth="816.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <TextArea fx:id="questionTextField" layoutX="15.0" layoutY="39.0" prefHeight="147.0" prefWidth="816.0" wrapText="true" />
+   </children>
+</fx:root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="845.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.main_gui_layer.MainFormDesignerController">
+   <children>
+      <Button fx:id="createNewFormBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="Create new form" textAlignment="CENTER" wrapText="true" />
+      <ComboBox fx:id="savedFormsComboBox" layoutX="136.0" layoutY="76.0" prefHeight="25.0" prefWidth="283.0" promptText="Saved forms" />
+      <Button fx:id="previewSelectedFormBtn" layoutX="14.0" layoutY="101.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="Preview selected form" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="deleteSelectedFormBtn" layoutX="14.0" layoutY="182.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="Delete selected form" textAlignment="CENTER" wrapText="true" />
+      <ComboBox fx:id="selectLanguageComboBox" layoutX="1026.0" layoutY="32.0" prefWidth="150.0" />
+      <Label fx:id="selectedLanguagesLabel" layoutX="1026.0" layoutY="14.0" prefHeight="17.0" prefWidth="150.0" text="Select language" />
+      <Button fx:id="quitButton" layoutX="14.0" layoutY="267.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="110.0" text="Quit" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

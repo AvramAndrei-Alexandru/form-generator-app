@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="929.0" prefWidth="1106.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.question_visibility_layer.QuestionVisibilityController">
+   <children>
+      <Button fx:id="saveButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="145.0" text="Save the form and quit questions visibility" textAlignment="CENTER" wrapText="true" />
+      <ScrollPane fx:id="scrollPane" layoutX="159.0" layoutY="64.0" prefHeight="755.0" prefWidth="927.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

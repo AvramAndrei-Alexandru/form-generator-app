@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.preview_gui_layer.PreviewMainLayoutController">
+   <bottom>
+      <AnchorPane prefHeight="301.0" prefWidth="969.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="previousQuestionBtn" layoutX="721.0" layoutY="14.0" mnemonicParsing="false" text="Previous question" />
+            <Button fx:id="nextQuestionBtn" layoutX="856.0" layoutY="14.0" mnemonicParsing="false" text="Next question" />
+            <Button fx:id="quitFormPreviewBtn" layoutY="14.0" mnemonicParsing="false" text="Quit form preview" />
+            <TextArea fx:id="conditionTextArea" layoutX="143.0" layoutY="14.0" prefHeight="281.0" prefWidth="565.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

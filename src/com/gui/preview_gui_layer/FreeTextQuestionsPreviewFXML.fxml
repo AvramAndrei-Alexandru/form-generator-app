@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root fx:id="anchorPane" prefHeight="532.0" prefWidth="855.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <TextArea fx:id="answerTextArea" layoutX="20.0" layoutY="200.0" prefHeight="237.0" prefWidth="816.0" promptText="Write here the answer to the question." />
+      <TextArea fx:id="questionTextField" layoutX="20.0" layoutY="24.0" prefHeight="147.0" prefWidth="816.0" wrapText="true" />
+    </children>
+</fx:root>
